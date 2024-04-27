@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Housing Website</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        nav {
+            margin-top: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: #ffffff;
+        }
+        
+        .house-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .house {
+            width: 300px;
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .house img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .house h2 {
+            margin-top: 10px;
+        }
+        
+        .house p {
+            margin-top: 5px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Housing Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Houses List</a></li>
+                <li><a href="#">Buttons</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="house-list">
+        <div class="house">
+            <img src="house1.jpg" alt="House 1">
+            <h2>House 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>More Details</button>
+        </div>
+        
+        <div class="house">
+            <img src="house2.jpg" alt="House 2">
+            <h2>House 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>More Details</button>
+        </div>
+        
+        <div class="house">
+            <img src="house3.jpg" alt="House 3">
+            <h2>House 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>More Details</button>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2022 Housing Website. All rights reserved.
+    </footer>
+    
+    <form>
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+    <script>
+        // Add your JavaScript code here
+    </script>
+</body>
+</html>
